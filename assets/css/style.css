@@ -332,9 +332,10 @@ main {
 }
 
 .avatar-box {
-  background: var(--bg-gradient-onyx);
-  border-radius: 20px;
-}
+  border-radius: 10px; /* Adjust the value to change the roundness */
+  overflow: hidden;
+  background: var(--bg-gradient-onyx); /* Assuming you have a variable defined for the background */
+} 
 
 .info-content .name {
   color: var(--white-2);
